@@ -1,3 +1,69 @@
-img{
+*{
+    padding: 0;
+    margin: 1%;
+    border: 0;
+    width: 100%;
+}
+#Home   img{
     width: 100px;
+    border-radius: 48%;
+}
+header{
+    margin: 1px;
+    display: flex;
+    width: 100%;
+
+}
+header nav ul{
+    list-style: none;
+    display: flex;
+}
+header nav ul li{
+    margin: 5%;
+}
+main{
+    margin-left: 20%;
+}
+#About{
+    background-color: aquamarine;
+    padding: 10px;
+    text-align: center;
+
+}
+#About div{
+        display: flex;
+}
+
+#About ul{
+    list-style: none;
+    text-align: left;
+}
+#Home{
+    text-align: center;
+    margin-bottom: 10%;
+    margin-right: 10px;
+
+}
+.bawah{
+
+}
+.logo img{
+    width: 100px;
+    border-radius: 67%;
+}
+#About img{
+    width: 250px
+}
+#Achievement .card{
+    width: 50%;
+    text-align: justify;
+    background-color:cadetblue;
+    padding: 10px;
+}
+#Achievement img{
+    width: 100%;
+}
+#Achievement .Cards{
+    display: flex;
+
 }
