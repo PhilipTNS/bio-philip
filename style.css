@@ -1,7 +1,7 @@
-*{
+body{
     padding: 0;
-    margin: 1%;
     border: 0;
+    height: 100%;
     width: 100%;
 }
 #Home   img{
@@ -9,17 +9,21 @@
     border-radius: 48%;
 }
 header{
-    margin: 1px;
     display: flex;
-    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    background-color: grey;
 
 }
 header nav ul{
     list-style: none;
     display: flex;
+    width: 100%;
 }
 header nav ul li{
     margin: 5%;
+    width: 100%;
 }
 main{
     margin-left: 20%;
@@ -54,16 +58,23 @@ main{
 #About img{
     width: 250px
 }
-#Achievement .card{
+.card{
     width: 50%;
     text-align: justify;
     background-color:cadetblue;
     padding: 10px;
 }
-#Achievement img{
+.card img{
     width: 100%;
+    height: 100%;
 }
-#Achievement .Cards{
+.Cards{
+
     display: flex;
 
+}
+
+
+@media(max-width:800px){
+    .Cards{flex-direction: column;}
 }
